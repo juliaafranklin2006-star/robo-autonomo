@@ -1,28 +1,36 @@
-# 🌸 Autonomous Maze Robot
+# 🌸 Maze Robot — Development Repository
 
-![ESP32](https://img.shields.io/badge/ESP32-FF69B4?style=for-the-badge&logo=espressif&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-FFB6C1?style=for-the-badge&logo=platformio&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-FFC0CB?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Robotics](https://img.shields.io/badge/Robotics-F8BBD0?style=for-the-badge&logo=ros&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/ESP32-ff8ec7?style=for-the-badge&logo=espressif&logoColor=white">
+  <img src="https://img.shields.io/badge/PlatformIO-f8b4d9?style=for-the-badge">
+  <img src="https://img.shields.io/badge/C++-ffc4df?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Robotics-fad1e8?style=for-the-badge">
+</p>
 
-## 💖 About the Project
+---
 
-This repository contains the complete development of an autonomous maze-solving robot built around an **ESP32** microcontroller.
+# 💖 Sobre este repositório
 
-The robot is designed to navigate a maze autonomously by detecting walls and obstacles using **three ultrasonic sensors** while controlling DC motors through an H-bridge motor driver. The project emphasizes modular development, allowing each subsystem to be designed, tested, and integrated independently.
+Este repositório reúne o desenvolvimento da parte em que estou trabalhando no projeto de um robô autônomo para navegação em labirintos.
 
-This repository serves as the main project workspace, containing both the robot firmware and the electronic hardware documentation.
+O objetivo é documentar a evolução do firmware, registrar testes realizados durante o desenvolvimento e manter organizada a documentação eletrônica produzida por mim ao longo do projeto.
 
-## 🤖 Features
+> **Observação:** este repositório **não representa o projeto completo do robô**, apenas a parte sob minha responsabilidade dentro da equipe.
 
-- Autonomous maze navigation
-- Real-time obstacle detection
-- Wall-following using three ultrasonic sensors
-- Differential drive with DC motors
-- Modular firmware architecture
-- Custom electronic hardware design
+---
 
-## 📂 Repository Structure
+# ✨ O que você encontrará aqui
+
+- 🤖 Desenvolvimento do firmware em ESP32
+- 📡 Testes individuais dos sensores
+- ⚙️ Testes dos motores e da ponte H
+- 📐 Esquemático eletrônico
+- 📚 Organização modular do código
+- 📝 Documentação do desenvolvimento
+
+---
+
+# 📂 Estrutura do repositório
 
 ```text
 .
@@ -37,33 +45,57 @@ This repository serves as the main project workspace, containing both the robot 
 └── README.md
 ```
 
-### 🚀 Firmware
+---
 
-The `firmware` directory contains the complete source code for the robot, developed using **PlatformIO** and the Arduino framework for the ESP32.
+# 🌷 Firmware
 
-The firmware is organized into independent modules to improve readability, maintenance, and scalability as the project evolves.
+A pasta **firmware** contém os códigos desenvolvidos durante o projeto.
 
-### ⚡ Hardware
+Ela inclui tanto os módulos utilizados na implementação do robô quanto programas utilizados para validação e testes individuais dos componentes eletrônicos.
 
-The `hardware` directory contains the electronic design of the robot, including the circuit schematic and future hardware documentation.
+O projeto utiliza:
 
-## 🔧 Hardware Components
+- ESP32
+- PlatformIO
+- Framework Arduino
+- Linguagem C++
 
-- ESP32 Development Board
-- 3 × HC-SR04 Ultrasonic Sensors
-- Dual H-Bridge Motor Driver
-- 2 × DC Motors
-- Li-Ion Battery Pack
+---
 
-## 📈 Project Goals
+# ⚡ Hardware
 
-- Design a fully autonomous maze-solving robot.
-- Develop modular and maintainable firmware.
-- Validate hardware through systematic component testing.
-- Integrate sensing, control, and navigation into a reliable robotic platform.
+A pasta **hardware** reúne a documentação eletrônica produzida durante o desenvolvimento, incluindo o esquemático do circuito e futuras revisões do hardware.
 
-## 📚 Development Status
+---
 
-🚧 This project is currently under development.
+# 🧩 Componentes utilizados
 
-New features, hardware revisions, and documentation will be added as development progresses.
+- ESP32 DevKit
+- 3 × Sensores ultrassônicos HC-SR04
+- Ponte H dupla
+- 2 × Motores DC
+- Pack de baterias Li-Ion
+
+---
+
+# 🌸 Objetivos deste repositório
+
+- Organizar o desenvolvimento da minha parte no projeto
+- Documentar decisões de hardware
+- Registrar testes realizados
+- Facilitar futuras manutenções
+- Servir como portfólio acadêmico do desenvolvimento realizado
+
+---
+
+# 💗 Status
+
+🚧 Projeto em desenvolvimento.
+
+Este repositório é atualizado conforme novas funcionalidades, testes e documentação são produzidos.
+
+---
+
+<p align="center">
+  Feito com 💕 durante o desenvolvimento do projeto.
+</p>
