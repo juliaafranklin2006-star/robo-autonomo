@@ -1,11 +1,15 @@
 #include "sensors.h"
 #include <Arduino.h>
 
-int trig = 13;
-int echo = 21;
+int trig = 18;
+int echo = 36; //pino VP
 
-int motor1 = 5;
-int motor2 = 3;
+// int trig = 19;
+// int echo = 39; //pino VN
+
+// int trig = 21;
+// int echo = 34;
+
 
 float distancia;
 float distanciaLida;
@@ -16,9 +20,6 @@ void setupSensors()
   pinMode(trig, OUTPUT);
   pinMode(echo, INPUT);
   
-  pinMode(motor1, OUTPUT);
-  pinMode(motor2, OUTPUT);
-  
   Serial.begin(9600);
 }
 
@@ -27,23 +28,12 @@ float lerDistancia();
 void loopSensors()
 {
    lerDistancia();
-    Serial.println("teste");
- distanciaLida = lerDistancia();
- u = distanciaLida;
- if (distanciaLida < 100)
- {
-   u = 0;
- }
- else if (distanciaLida > 255){
-   u = 255;
- }
-  
-  
+   
 }
 
 float lerDistancia()
 {
-   Serial.println("entrou");
+   Serial.println();
   digitalWrite(trig, LOW);
   delay(5);
   digitalWrite(trig, HIGH);
