@@ -1,4 +1,4 @@
-# 🌸 Maze Robot — Development Repository
+# Robô autônomo
 
 <p align="left">
   <img src="https://img.shields.io/badge/ESP32-ff8ec7?style=for-the-badge&logo=espressif&logoColor=white">
@@ -9,7 +9,7 @@
 
 ---
 
-# 💖 Sobre este repositório
+#  Sobre este repositório
 
 Este repositório reúne o desenvolvimento da parte em que estou trabalhando no projeto de um robô autônomo para navegação em labirintos.
 
@@ -19,7 +19,7 @@ O objetivo é documentar a evolução do firmware, registrar testes realizados d
 
 ---
 
-# ✨ O que você encontrará aqui
+#  O que você encontrará aqui
 
 - 🤖 Desenvolvimento do firmware em ESP32
 - 📡 Testes individuais dos sensores
@@ -47,7 +47,7 @@ O objetivo é documentar a evolução do firmware, registrar testes realizados d
 
 ---
 
-# 🌷 Firmware
+#  Firmware
 
 A pasta **firmware** contém os códigos desenvolvidos durante o projeto.
 
@@ -62,7 +62,7 @@ O projeto utiliza:
 
 ---
 
-# ⚡ Hardware
+#  Hardware
 
 A pasta **hardware** reúne a documentação eletrônica produzida durante o desenvolvimento, incluindo o esquemático do circuito e futuras revisões do hardware.
 
@@ -78,7 +78,7 @@ A pasta **hardware** reúne a documentação eletrônica produzida durante o des
 
 ---
 
-# 🌸 Objetivos deste repositório
+#  Objetivos deste repositório
 
 - Organizar o desenvolvimento da minha parte no projeto
 - Documentar decisões de hardware
@@ -88,7 +88,7 @@ A pasta **hardware** reúne a documentação eletrônica produzida durante o des
 
 ---
 
-# 💗 Status
+#  Status
 
 🚧 Projeto em desenvolvimento.
 
@@ -96,6 +96,3 @@ Este repositório é atualizado conforme novas funcionalidades, testes e documen
 
 ---
 
-<p align="center">
-  Feito com 💕 durante o desenvolvimento do projeto.
-</p>
